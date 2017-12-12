@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0538ae9ce3c9686975959296b931edd7be596063e7633b4381a8d1ef33294e90
+-- hash: e37dce2442cb5016db44897609b99ebbd2b8eb8f975f9b3c679fe42b26c42fb5
 
 name:           irbuilder
 version:        0.1.0.0
@@ -28,6 +28,7 @@ library
   exposed-modules:
       LLVM.IRBuilder
       LLVM.IRBuilder.Instruction
+      LLVM.IRBuilder.Constant
       LLVM.IRBuilder.Monad
       LLVM.IRBuilder.Module
       LLVM.IRBuilder.Internal.SnocList

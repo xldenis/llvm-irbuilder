@@ -18,6 +18,7 @@ library:
   exposed-modules:
   - LLVM.IRBuilder
   - LLVM.IRBuilder.Instruction
+  - LLVM.IRBuilder.Constant
   - LLVM.IRBuilder.Monad
   - LLVM.IRBuilder.Module
   - LLVM.IRBuilder.Internal.SnocList
